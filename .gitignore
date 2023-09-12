@@ -1,0 +1,84 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# VS/MD specific files
+.vscode/
+.idea/
+*.sln
+*.suo
+*.ntvs*
+*.nupkg
+*.sln.iml
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# OS-specific
+.DS_Store*
+Thumbs.db
+
+# Unity files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Gradle files
+.gradle/
+build/
+
+# Windows image file caches
+Icon?
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+/.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Visual Studio for Mac
+.vscode/
+.idea/
+.DS_Store
+.suo
+*.sln.iml
+
+# Rider
+.idea/
+.idea/
+*.sln.iml
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
