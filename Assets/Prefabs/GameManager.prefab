@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4342629230181257820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5396962377924637339}
+  - component: {fileID: 6728350117709781245}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5396962377924637339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4342629230181257820}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6728350117709781245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4342629230181257820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0966b479563c7e34aa209cf519ed171f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameScene: Hell
+  menuScene: Menu
+  deathScene: Game Over
+  winScene: Win Scene
+  characterSelectionScene: CharacterSelection
+  scorePerCoin: 10
+  scorePerSecond: 1
+  maxScoreTime: 300
+  fadeTime: 0.5
+  fadeTexture: {fileID: 2800000, guid: 1e49e81afb1923941b95738caec105ae, type: 3}
+  gameFadeColor: {r: 0, g: 0, b: 0, a: 1}
+  deathFadeColor: {r: 0.8867924, g: 0.030675106, b: 0.030675106, a: 1}
+  winFadeColor: {r: 1, g: 1, b: 1, a: 1}
+  menuMusic: {fileID: 8300000, guid: 89f935015cc98724a862a586326fdf21, type: 3}
+  characterSectionMusic: {fileID: 8300000, guid: bef0cef2ded0f0645ad90c6e5bdd4965, type: 3}
+  gameMusic: {fileID: 8300000, guid: 559c232a43caebe41870ce54786f604e, type: 3}
+  gameOverMusic: {fileID: 0}
+  winMusic: {fileID: 8300000, guid: 1f2ad53bacc245642854dbdc8ea71a9b, type: 3}
+  inGameMenuPrefab: {fileID: 6913199372181277643, guid: 01b6b69829b6d0e4aa917f977550b498, type: 3}
+  characterPrefabs:
+  - {fileID: 4708208704474193310, guid: e9abeee5487b4c147b13cb9ca2e4fa03, type: 3}
+  - {fileID: 9067277011281502676, guid: a281f7941f779a340be4b76a398e13c1, type: 3}
+  - {fileID: 7172802924702867926, guid: 57746dbf74269ce439c525a5acbaf8c0, type: 3}
+  - {fileID: 1469643417401975935, guid: 63cdd5108bf82b345a0749d6f9a4e3ef, type: 3}
