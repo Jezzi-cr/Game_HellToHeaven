@@ -1,7 +1,7 @@
 # Game_HellToHeaven
 HellToHeaven - Cucumber's Escape :  Dodge lava, spikes; collect coins, keys! Guide a cucumber to escape fiery doom, race to reach heaven. 
 
-**Title: HellToHeaven - A Cucumber's Epic Ascent**
+**HellToHeaven - A Cucumber's Epic Ascent**
 
 **Description:**
 
